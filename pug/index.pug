@@ -1,0 +1,132 @@
+extends header.pug
+
+block content
+
+	section.poster
+		.wrapper
+			.sides
+				.lft
+					img(src="img/poster-img.png" alt="Photo" width="770")
+				.rht
+					h1.wow.fadeInDown Save your time<br /> and money!
+					form(action="#").wow.fadeInDown
+						h3 Retail business owner! <br />Reduce your expense up to 20%!
+						.block__form
+							input(placeholder="Enter your e-mail address")
+							button
+								span Know how
+								<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.33301 2.25L13.333 6L9.33301 9.75" stroke="#6B71FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.6667 6H2" stroke="#6B71FF" stroke-width="2" stroke-linecap="round"/></svg>
+
+	section.block-1#about-id
+		.wrapper
+			h2.wow.fadeInDown Scandpay is...
+			.sides
+				.lft
+					p.wow.fadeInDown a platform which helps customers and business to improve service. 
+					p.wow.fadeInDown With Scandpay  the customer can scan the barcode of the product  and pay for it immediately in the store, avoiding long lines.
+					p.wow.fadeInDown We will take care with self checkout. You only need to observe it. 
+					p.wow.fadeInDown No more queuing! Easy shopping!
+					p.wow.fadeInDown Cashierless shops will help owners reduce costs on staff, focus on other segments of sales and attract new customers.
+				ul.rht
+					li.wow.fadeInDown
+						<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 12C0 5.37258 5.37258 0 12 0H60C66.6274 0 72 5.37258 72 12V60C72 66.6274 66.6274 72 60 72H12C5.37258 72 0 66.6274 0 60V12Z" fill="#FFBDA8"/><path d="M52.2 51.264H19.8C18.792 51.264 18 52.056 18 53.064C18 54.072 18.792 54.864 19.8 54.864H52.2C53.208 54.864 54 54.072 54 53.064C54 52.056 53.208 51.264 52.2 51.264Z" fill="white"/><path d="M42.1104 38.688L37.7904 41.928V25.8C37.7904 24.792 36.9984 24 35.9904 24C34.9824 24 34.1904 24.792 34.1904 25.8V41.856L29.8704 38.688C29.5824 38.472 29.1504 38.328 28.7904 38.328C28.2144 38.328 27.7104 38.616 27.3504 39.048C26.7744 39.84 26.9184 40.992 27.7104 41.568L34.9824 46.896C35.6304 47.4 36.4944 47.4 37.1424 46.896L44.3424 41.568C45.1344 40.992 45.2784 39.84 44.7024 39.048C43.9824 38.256 42.9024 38.112 42.1104 38.688Z" fill="white"/></svg>
+						span Easy to set up
+					li.wow.fadeInDown
+						<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 12C0 5.37258 5.37258 0 12 0H60C66.6274 0 72 5.37258 72 12V60C72 66.6274 66.6274 72 60 72H12C5.37258 72 0 66.6274 0 60V12Z" fill="#FFDB84"/><g style="mix-blend-mode:overlay"><path d="M41.1104 39.688L36.7904 42.928V26.8C36.7904 25.792 35.9984 25 34.9904 25C33.9824 25 33.1904 25.792 33.1904 26.8V42.856L28.8704 39.688C28.5824 39.472 28.1504 39.328 27.7904 39.328C27.2144 39.328 26.7104 39.616 26.3504 40.048C25.7744 40.84 25.9184 41.992 26.7104 42.568L33.9824 47.896C34.6304 48.4 35.4944 48.4 36.1424 47.896L43.3424 42.568C44.1344 41.992 44.2784 40.84 43.7024 40.048C42.9824 39.256 41.9024 39.112 41.1104 39.688Z" fill="white"/><path d="M49.3721 30.8738C48.7274 30.3623 47.815 30.3636 47.1716 30.8768C46.283 31.5857 46.2851 32.9372 47.176 33.6433L53.0003 38.2597C53.6274 38.7578 53.9797 39.4332 53.9797 40.1374C53.9797 40.8417 53.6274 41.5171 53.0003 42.0151L37.8682 54.0408C37.2409 54.5387 36.3903 54.8184 35.5033 54.8184C34.6164 54.8184 33.7658 54.5387 33.1385 54.0408L17.9997 42.0151C17.3726 41.5171 17.0203 40.8417 17.0203 40.1374C17.0203 39.4332 17.3726 38.7578 17.9997 38.2597L23.8234 33.6438C24.7138 32.938 24.7144 31.5868 23.8246 30.8803C23.183 30.3709 22.2751 30.3703 21.6329 30.8789L15.1565 36.0076C14.4729 36.5501 13.9305 37.1944 13.5605 37.9035C13.1905 38.6125 13 39.3725 13 40.1401C13 40.9076 13.1905 41.6676 13.5605 42.3767C13.9305 43.0857 14.4729 43.73 15.1565 44.2726L30.2954 56.2877C30.9788 56.8305 31.7901 57.2612 32.6831 57.555C33.5762 57.8488 34.5333 58 35.5 58C36.4666 58 37.4238 57.8488 38.3169 57.555C39.2099 57.2612 40.0212 56.8305 40.7046 56.2877L55.8435 44.2726C56.5271 43.73 57.0695 43.0857 57.4395 42.3767C57.8095 41.6676 58 40.9076 58 40.1401C58 39.3725 57.8095 38.6125 57.4395 37.9035C57.0695 37.1944 56.5271 36.5501 55.8435 36.0076L49.3721 30.8738Z" fill="white"/><circle cx="35" cy="21" r="5.5" stroke="white" stroke-width="3"/></g></svg>
+						span Easy to integrate (provide product info)
+					li.wow.fadeInDown
+						<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 12C0 5.37258 5.37258 0 12 0H60C66.6274 0 72 5.37258 72 12V60C72 66.6274 66.6274 72 60 72H12C5.37258 72 0 66.6274 0 60V12Z" fill="#91E1E1"/><path fill-rule="evenodd" clip-rule="evenodd" d="M15 17C14.4696 17 13.9609 17.2107 13.5858 17.5858C13.2107 17.9609 13 18.4696 13 19V25C13 26.1046 13.8954 27 15 27C16.1046 27 17 26.1046 17 25V21H55V49H17V33H44.7551L41.688 37.1824C41.472 37.4704 41.328 37.9024 41.328 38.2624C41.328 38.8384 41.616 39.3424 42.048 39.7024C42.84 40.2784 43.992 40.1344 44.568 39.3424L49.896 32.0703C50.4 31.4223 50.4 30.5583 49.896 29.9103L44.568 22.7103C43.992 21.9183 42.84 21.7743 42.048 22.3503C41.256 23.0703 41.112 24.1503 41.688 24.9423L44.7312 29H15C13.8954 29 13 29.8954 13 31V51C13 52.1046 13.8954 53 15 53H57C58.1046 53 59 52.1046 59 51V19C59 17.8954 58.1046 17 57 17H15Z" fill="white"/></svg>
+						span Get payments and know your customer
+
+	section.block-2#app-id
+		.wrapper
+			.block-2__title.wow.fadeInDown
+				<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 20C0 8.95431 8.95431 0 20 0H140C151.046 0 160 8.95431 160 20V140C160 151.046 151.046 160 140 160H20C8.95431 160 0 151.046 0 140V20Z" fill="url(#paint0_linear_7289:1334)"/><path d="M129.859 62.5559C132.342 58.797 133.667 54.3779 133.667 49.8571C133.669 46.8549 133.086 43.8816 131.951 41.1075C130.817 38.3333 129.153 35.8127 127.054 33.6897C124.956 31.5668 122.465 29.8833 119.723 28.7354C116.98 27.5875 114.042 26.9978 111.074 27C106.606 27 102.238 28.3406 98.5224 30.8521C94.8071 33.3637 91.9114 36.9335 90.2014 41.1101C89.0605 43.8967 88.4817 46.8699 88.4816 49.8572C88.4816 49.8587 88.4816 49.8603 88.4816 49.8618V103.19H103.543V71.4071C104.558 71.7702 105.602 72.0608 106.667 72.2751C111.049 73.157 115.592 72.7044 119.72 70.9744C123.848 69.2444 127.377 66.3147 129.859 62.5559Z" fill="white"/><path d="M72.185 117.655V132.893H49.5925C46.625 132.895 43.6862 132.305 40.9441 131.158C38.2021 130.01 35.7106 128.326 33.6123 126.203C31.5139 124.08 29.8499 121.56 28.7153 118.785C27.5807 116.011 26.9978 113.038 27 110.036V102.417H42.0617V110.087C42.0617 112.094 42.8498 114.019 44.2527 115.438C45.6556 116.857 47.5583 117.655 49.5423 117.655H72.185Z" fill="white"/><path d="M73.4204 27V42.2381H50.7777C48.7937 42.2381 46.891 43.0355 45.4881 44.4548C44.0852 45.8741 43.2971 47.7991 43.2971 49.8064V65.146C43.2971 67.1533 44.0853 69.0784 45.4882 70.4977C46.8911 71.917 48.7938 72.7144 50.7778 72.7144H73.4205V87.9525H50.828C47.8605 87.9547 44.9217 87.365 42.1796 86.2171C39.4376 85.0693 36.9462 83.3857 34.8478 81.2628C32.7495 79.1398 31.0854 76.6192 29.9508 73.8451C28.8226 71.0865 28.2399 68.1311 28.2355 65.146L28.2354 49.908C28.2266 46.9014 28.8046 43.9227 29.9363 41.1427C31.0679 38.3626 32.7309 35.836 34.8299 33.7077C36.9289 31.5794 39.4226 29.8913 42.1679 28.7402C44.9133 27.5892 47.8562 26.9978 50.8279 27H73.4204Z" fill="white"/><path d="M118.605 103.19V110.86C118.605 112.868 117.817 114.793 116.414 116.212C115.011 117.631 113.108 118.429 111.124 118.429H88.4816V133.667H111.074C114.042 133.669 116.98 133.079 119.723 131.931C122.465 130.783 124.956 129.1 127.054 126.977C129.153 124.854 130.817 122.333 131.951 119.559C133.086 116.785 133.669 113.812 133.667 110.81V103.19H118.605Z" fill="white"/><defs><linearGradient id="paint0_linear_7289:1334" x1="80" y1="-3.15584e-05" x2="5.18889" y2="0.79476" gradientUnits="userSpaceOnUse"><stop stop-color="#57AEFE"/><stop offset="1" stop-color="#6B71FF"/></linearGradient></defs></svg>
+				.text
+					h2 Scandpay App
+					p Just scan and buy
+			.sides
+				.lft
+					ol
+						li.wow.fadeInLeft
+							.li__top
+								<svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 6.52637L21 16.6362L11 26.5264" stroke="#121313" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+							p The customer <br/>scans barcode, <br />adds product to cart
+						li.wow.fadeInLeft(data-wow-delay=".1s")
+							.li__top
+								<svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 6.52637L21 16.6362L11 26.5264" stroke="#121313" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+							p Makes payment and gets receipt into email
+						li.wow.fadeInLeft(data-wow-delay=".2s")
+							.li__top
+							p If needed shows it to security
+					.images.wow.fadeInDown
+						a(href="#")
+							img(src="img/appstore.jpg" alt="Photo")
+						a(href="#")
+							img(src="img/googleplay.jpg" alt="Photo")
+				.rht
+					img(src="img/phones.png" alt="Photo" width="977")
+
+	section.block-3#business-id
+		.wrapper
+			h2.wow.fadeInDown Business account
+			p.wow.fadeInDown Thanks to Scandpay, you can reduce costs on staff as well as increase the sales area occupied by the cashier's counter. Submit additional products and get more income!
+			p.wow.fadeInDown In your scandpay personal account, you can add and set up stores. A simple form of integrating your products with barcodes will help you easily see the history of sales and returns, as well as the company's balance.
+			.block-3__block
+				.block-3__circle.wow.fadeIn
+					.circle_1.wow.fadeIn(data-wow-delay=".1s")
+						.circle_2.wow.fadeIn(data-wow-delay=".2s")
+							b 3.29%
+							p + $0.3 from <br />deposit
+				.block-3__ben
+					.block-3__benefits_1.block-3__benefits.wow.fadeIn Balance and withdraw
+					.block-3__benefits_2.block-3__benefits.wow.fadeIn Your goods and products
+					.block-3__benefits_3.block-3__benefits.wow.fadeIn Daily sales and returns
+					.block-3__benefits_4.block-3__benefits.wow.fadeIn Customer info
+				img(src="img/block-3-img.png" alt="Photo")
+
+	section.block-4#contacts-id
+		.wrapper
+			h2.wow.fadeInDown Let’s cooperate!
+			.sides
+				.lft
+					h3.wow.fadeInDown Start using Scandpay <br />and reduce your expenses
+					p.wow.fadeInDown Send your contacts for detailed information
+				form(action="#").rht
+					.inputs.wow.fadeInDown
+						input(type="text" placeholder="Your name")
+						input(type="email" placeholder="E-mail address")
+					.inputs.wow.fadeInDown
+						input(type="text" placeholder="Company")
+						input(type="num" placeholder="Contact phone number")
+					button(type="submit").wow.fadeInDown Receive detailed information
+
+	include footer.pug
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
